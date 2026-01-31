@@ -1,16 +1,25 @@
-# React + Vite
+# 🎬 GSAP Animated Video Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, visually immersive landing page built with **React**, **Vite**, and **GSAP**. This project features smooth scroll-triggered animations and seamless video integration to create a premium user experience.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Smooth Scroll Animations:** Leverages GSAP's `ScrollTrigger` for fluid, frame-by-frame interactions.
+* **Video Integration:** Optimized background video playback with synchronized UI transitions.
+* **Modern UI/UX:** Clean, responsive design built with a focus on performance and aesthetics.
+* **Optimized Build:** Powered by Vite for lightning-fast Hot Module Replacement (HMR).
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React.js
+* **Animation:** GSAP (GreenSock Animation Platform)
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS / CSS Modules (choose yours)
+
+## 📦 Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/PiyushBytes/gsap-react-video-site.git](https://github.com/PiyushBytes/gsap-react-video-site.git)
