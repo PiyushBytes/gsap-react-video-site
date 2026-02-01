@@ -3,17 +3,21 @@ import Video from "./Video";
 
 const HomeHerotext = () => {
   return (
-    <div className="font-[font1] pt-5 text-center">
-      <div className="text-[9.5vw] uppercase leading-[8vw]">L'étincelle</div>
-      <div className="text-[9.5vw] uppercase leading-[8vw] flex items-center">
-        qui
-        <div className="h-[10vw] w-[10vw]">
-          <Video />
+    <div className='font-[font1]  mt-72 lg:mt-0 pt-5 text-center'>
+            <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-center uppercase lg:leading-[8vw] leading-[10vw]'>
+                msit
+            </div>
+            <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-start uppercase lg:leading-[8vw] leading-[10vw]'>
+                Art
+                <div className='h-[7vw]  rounded-full mt-3 overflow-hidden '>
+                    <Video />
+                </div>
+                creative
+            </div>
+            <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-center uppercase lg:leading-[8vw] leading-[10vw]'>
+                club
+            </div>
         </div>
-        génère
-      </div>
-      <div className="text-[9.5vw] uppercase leading-[8vw]">la créativité</div>
-    </div>
   );
 };
 
